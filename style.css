@@ -26,6 +26,10 @@ body {
   box-shadow: 1px 1px 1px grey;
 }
 
+.textfield:hover {
+  box-shadow: 1px 1px 3px black;
+}
+
 .mic {
   position: absolute;
   width: 40px;
@@ -42,6 +46,14 @@ button {
   border: none;
   margin: 3px;
 }
+
+button:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  color: black;
+}
+
 /* Header and Footer Stuff */
 
 .header {
